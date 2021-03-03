@@ -1,0 +1,16 @@
+{
+  "door_knock": {
+    "category": "players",
+    "subtitle": "subtitles.doorknockermod.door_knock",
+    "sounds": [
+      "doorknockermod:door_knock"
+    ]
+  },
+  "trapdoor_knock": {
+    "category": "players",
+    "subtitle": "subtitles.doorknockermod.trapdoor_knock",
+    "sounds": [
+      "doorknockermod:trapdoor_knock"
+    ]
+  }
+}
