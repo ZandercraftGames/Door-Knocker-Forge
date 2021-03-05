@@ -3,14 +3,25 @@
     "category": "players",
     "subtitle": "subtitles.doorknockermod.door_knock",
     "sounds": [
-      "doorknockermod:door_knock"
+      "doorknockermod:door_knock_1",
+      "doorknockermod:door_knock_2",
+      "doorknockermod:door_knock_3",
+      "doorknockermod:door_knock_4",
+      "doorknockermod:door_knock_5",
+      "doorknockermod:door_knock_6",
+      "doorknockermod:door_knock_7"
     ]
   },
   "trapdoor_knock": {
     "category": "players",
     "subtitle": "subtitles.doorknockermod.trapdoor_knock",
     "sounds": [
-      "doorknockermod:trapdoor_knock"
+      "doorknockermod:trapdoor_knock_1",
+      "doorknockermod:trapdoor_knock_2",
+      "doorknockermod:trapdoor_knock_3",
+      "doorknockermod:trapdoor_knock_4",
+      "doorknockermod:trapdoor_knock_5",
+      "doorknockermod:trapdoor_knock_6"
     ]
   }
 }
