@@ -1,7 +1,7 @@
 # Door Knocker Mod (Forge)
 An forge port of the Door Knocker mod by MeowMC, originally built for fabric.
 
-Curseforge page: *coming soon*
+Curseforge page: https://www.curseforge.com/minecraft/mc-mods/door-knocker-forge
 
 Original project: https://github.com/MeowMC/Door-Knocker
 
