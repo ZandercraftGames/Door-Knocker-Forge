@@ -12,9 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import org.apache.logging.log4j.LogManager;
@@ -57,16 +55,15 @@ public class DoorKnockerForge {
         BlockState block = event.getWorld().getBlockState(pos);
         PlayerEntity player = event.getPlayer();
 
-        if (block.getBlock() instanceof DoorBlock) {
+        if ((block.getBlock() instanceof DoorBlock) && player.getHeldItemMainhand().isEmpty()) {
             Random r = new Random();
-            if (r.nextInt(5000 + 1) == 25){
+            if (r.nextInt(5000 + 1) == 25) {
                 // 5000:1 chance to trigger the FBI_EASTER_EGG_EVENT (this is an easter egg).
                 world.playSound(player, pos, KnockSounds.FBI_EASTER_EGG_EVENT, SoundCategory.PLAYERS, 1f, 1f);
             } else {
                 world.playSound(player, pos, KnockSounds.DOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
             }
-        }
-        if (block.getBlock() instanceof TrapDoorBlock) {
+        } else if ((block.getBlock() instanceof TrapDoorBlock) && player.getHeldItemMainhand().isEmpty()) {
             world.playSound(player, pos, KnockSounds.TRAPDOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
         }
     }
