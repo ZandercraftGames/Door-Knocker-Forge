@@ -1,6 +1,7 @@
 package ca.zandercraft.doorknockerforge;
 
 import net.minecraft.block.*;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
@@ -11,11 +12,15 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Random;
 
 @Mod("doorknockerforge")
 public class DoorKnockerForge {
@@ -50,12 +55,19 @@ public class DoorKnockerForge {
         World world = event.getWorld();
         BlockPos pos = event.getPos();
         BlockState block = event.getWorld().getBlockState(pos);
+        PlayerEntity player = event.getPlayer();
 
         if (block.getBlock() instanceof DoorBlock) {
-            world.playSound(null, pos, KnockSounds.DOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
+            Random r = new Random();
+            if (r.nextInt(5000 + 1) == 25){
+                // 5000:1 chance to trigger the FBI_EASTER_EGG_EVENT (this is an easter egg).
+                world.playSound(player, pos, KnockSounds.FBI_EASTER_EGG_EVENT, SoundCategory.PLAYERS, 1f, 1f);
+            } else {
+                world.playSound(player, pos, KnockSounds.DOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
+            }
         }
         if (block.getBlock() instanceof TrapDoorBlock) {
-            world.playSound(null, pos, KnockSounds.TRAPDOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
+            world.playSound(player, pos, KnockSounds.TRAPDOOR_KNOCK_EVENT, SoundCategory.PLAYERS, 1f, 1f);
         }
     }
 }

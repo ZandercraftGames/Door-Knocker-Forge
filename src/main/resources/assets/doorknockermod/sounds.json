@@ -23,5 +23,12 @@
       "doorknockermod:trapdoor_knock_5",
       "doorknockermod:trapdoor_knock_6"
     ]
+  },
+  "fbi_easter_egg": {
+    "category": "players",
+    "subtitle": "subtitles.doorknockermod.fbi_easter_egg",
+    "sounds": [
+      "doorknockermod:fbi_easter_egg"
+    ]
   }
 }
