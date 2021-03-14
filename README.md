@@ -1,7 +1,7 @@
 # Door Knocker Mod (Forge)
 [![Java CI with Gradle](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml) [![CodeQL](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml)
 
-<a style="color:red; border:1px dotted red; padding:2%;">This mod is for Forge. The official Fabric version is available [here](https://github.com/MeowMC/Door-Knocker). Please note that the Forge version is a port so it may differ from the Fabric version.</a>
+<p style="color:red; border:1px dotted red; padding:2%;">This mod is for Forge. The official Fabric version is available [here](https://github.com/MeowMC/Door-Knocker). Please note that the Forge version is a port so it may differ from the Fabric version.</p>
 
 Basically this mod adds one thing; The ability to knock on doors and trapdoors.
 
