@@ -3,7 +3,13 @@
 
 An forge port of the Door Knocker mod by MeowMC, originally built for fabric.
 
-Curseforge page: https://www.curseforge.com/minecraft/mc-mods/door-knocker-forge
+**Report a Bug/Issue:** [Click here](https://github.com/MeowMC/Door-Knocker/issues/new?assignees=ZandercraftGames&labels=Forge+Version%2C+bug&template=bug-report--forge-.md&title=%5BForge%5D+Issue+title+here)
+
+**Submit a Feature Request:** [Click here](https://github.com/MeowMC/Door-Knocker/issues/new?assignees=&labels=enhancement&template=feature-request.md&title=%5BFeature%5D+Feature+request+title+here)
+
+**Curseforge page:** https://www.curseforge.com/minecraft/mc-mods/door-knocker-forge
+
+**Discord:** https://discord.gg/m3EjDuuekg
 
 Basically this mod adds one thing:
 
@@ -19,5 +25,3 @@ Any help with these issues via PR would be extremely welcome. <3
 - Occurs when breaking a door (maybe only activate if the button has been held down for less than a certain period of time)
 
 Original project: https://github.com/MeowMC/Door-Knocker
-
-Fabric project Discord: https://discord.gg/m3EjDuuekg
