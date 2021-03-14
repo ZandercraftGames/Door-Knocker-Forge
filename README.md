@@ -1,5 +1,5 @@
 # Door Knocker Mod (Forge)
-[![Java CI with Gradle](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml)
+[![Java CI with Gradle](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml) [![CodeQL](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml)
 
 An forge port of the Door Knocker mod by MeowMC, originally built for fabric.
 
