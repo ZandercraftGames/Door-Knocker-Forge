@@ -3,9 +3,7 @@
 
 <a style="colour: red;">This mod is for Forge. The official Fabric version is available [here](https://github.com/MeowMC/Door-Knocker). Please note that the Forge version is a port so it may differ from the Fabric version.</a>
 
-Basically this mod adds one thing:
-
-The ability to knock on doors and trapdoors.
+Basically this mod adds one thing; The ability to knock on doors and trapdoors.
 
 This can change the world for role playing users and can also just be a nice thing to have when playing with friends!
 
