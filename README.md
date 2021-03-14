@@ -1,7 +1,14 @@
 # Door Knocker Mod (Forge)
 [![Java CI with Gradle](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/gradle.yml) [![CodeQL](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/ZandercraftGames/Door-Knocker-Forge/actions/workflows/codeql-analysis.yml)
 
-An forge port of the Door Knocker mod by MeowMC, originally built for fabric.
+<a style="colour: red;">This mod is for Forge. The official Fabric version is available [here](https://github.com/MeowMC/Door-Knocker). Please note that the Forge version is a port so it may differ from the Fabric version.</a>
+
+Basically this mod adds one thing:
+
+The ability to knock on doors and trapdoors.
+
+This can change the world for role playing users and can also just be a nice thing to have when playing with friends!
+
 
 **Report a Bug/Issue:** [Click here](https://github.com/MeowMC/Door-Knocker/issues/new?assignees=ZandercraftGames&labels=Forge+Version%2C+bug&template=bug-report--forge-.md&title=%5BForge%5D+Issue+title+here)
 
@@ -10,12 +17,6 @@ An forge port of the Door Knocker mod by MeowMC, originally built for fabric.
 **Curseforge page:** https://www.curseforge.com/minecraft/mc-mods/door-knocker-forge
 
 **Discord:** https://discord.gg/m3EjDuuekg
-
-Basically this mod adds one thing:
-
-The ability to knock on doors and trapdoors.
-
-This can change the world for role playing users and can also just be a nice thing to have when playing with friends!
 
 ### Known Issues
 Any help with these issues via PR would be extremely welcome. <3
