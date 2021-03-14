@@ -24,5 +24,3 @@ Any help with these issues via PR would be extremely welcome. <3
 - Can be spammed (needs a cooldown)
 - Occurs at the end of breaking a door (Either the cooldown or a change in the event type would fix this issue)
 - Occurs when breaking a door (maybe only activate if the button has been held down for less than a certain period of time)
-
-Original project: https://github.com/MeowMC/Door-Knocker
